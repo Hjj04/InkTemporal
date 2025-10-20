@@ -1,0 +1,103 @@
+# ===================================================================
+# Python & Virtual Environments
+# ===================================================================
+# 虚拟环境
+venv/
+env/
+.venv/
+.env/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE and Editor specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ===================================================================
+# Model Checkpoints & Weights
+# ===================================================================
+# PyTorch
+*.pt
+*.pth
+*.bin
+
+# TensorFlow / Keras
+*.h5
+*.hdf5
+*.ckpt
+*.ckpt.index
+*.ckpt.meta
+*.pb
+saved_model/
+
+# Other common formats
+*.onnx
+*.safetensors
+*.weights
+*.model
+
+# ===================================================================
+# Large Files & Datasets
+# ===================================================================
+# 常见的数据格式
+*.csv
+*.json
+*.jsonl
+*.xml
+*.zip
+*.gz
+*.tar.gz
+*.rar
+*.7z
+
+# 图像和视频数据 (如果你的数据集很大，建议取消注释)
+# *.jpg
+# *.jpeg
+# *.png
+# *.gif
+# *.mp4
+# *.avi
+
+# 数据文件夹 (建议将所有数据放在一个或几个文件夹中)
+data/
+dataset/
+datasets/
+raw_data/
+processed_data/
+
+# ===================================================================
+# Logs & Outputs
+# ===================================================================
+# 日志文件和文件夹
+logs/
+log/
+*.log
+runs/
+output/
+outputs/
+results/
+
+# ===================================================================
+# System & OS Files
+# ===================================================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ===================================================================
+# Build & Distribution
+# ===================================================================
+build/
+dist/
+*.egg-info/
+downloads/
